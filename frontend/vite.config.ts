@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/solideo_13_1_test/',
   server: {
     port: 3000,
     proxy: {
